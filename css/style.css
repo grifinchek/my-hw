@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(245, 239, 233);
+}
+.a{
+    color: black;
+    padding: 10px;
+}
+#container1{
+    background-color: rgb(224, 224, 224);
+    opacity: 50%;
+    height: 300px;
+}
+.footer{
+   
+    left: 0; bottom: 0;
+    width: 100%;
+    background-color: rgb(189, 189, 192);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      #footer{
+          display: flex;
+          flex-direction: row;
+      }
+      .font{
+   font-family:Snell Roundhand, cursive;
+      }
